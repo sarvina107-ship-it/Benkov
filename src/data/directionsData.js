@@ -62,7 +62,7 @@ export const directionsCategories = [
     },
     {
         category: "carving",
-        items: ["wood-carving", "ganch-carving"]
+        items: ["wood-carving", "ganch-carving", "monumental-decorative"]
     },
     {
         category: "designer",
@@ -110,6 +110,10 @@ export const directionsData = {
     "ganch-carving": {
         image: Ganch1,
         images: [ Ganch4,Ganch1, Ganch3, Ganch2]
+    },
+    "monumental-decorative": {
+        image: "/images/directions/monumental-decorative.jpg",
+        images: ["/img1.jpg", "/img2.jpg", "/img3.jpg", "/img4.jpg"]
     },
     "costume-designer": {
         image: Costume1,

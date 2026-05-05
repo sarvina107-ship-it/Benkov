@@ -19,6 +19,7 @@ const Navbar = () => {
     [ROUTES.DOCUMENTS]: 'Документы',
     [ROUTES.INFRASTRUCTURE]: 'Инфраструктура',
     [ROUTES.STUDYPLAN]: 'Учебный план',
+    [ROUTES.SCHEDULE]: 'Расписание',
     [ROUTES.MANAGEMENT]: 'Руководство',
     [ROUTES.NEWSSECTION]: 'Новости',
     [ROUTES.NEWSLIST]: 'Лента новостей',
@@ -152,6 +153,7 @@ const Navbar = () => {
                 <div className="bg-white text-[#1B2A44] rounded-[14px] shadow-xl overflow-hidden">
                   <Link to={ROUTES.DIRECTIONS} className="block px-5 py-3 hover:bg-[#F5EFE6]">{t('nav.directions')}</Link>
                   <Link to={ROUTES.STUDYPLAN} className="block px-5 py-3 hover:bg-[#F5EFE6]">{t('nav.study_plan')}</Link>
+                  <Link to={ROUTES.SCHEDULE} className="block px-5 py-3 hover:bg-[#F5EFE6]">{t('nav.schedule')}</Link>
                   <Link to={ROUTES.ACHIEVEMENTS} className="block px-5 py-3 hover:bg-[#F5EFE6]">{t('nav.achievements')}</Link>
                 </div>
               </div>

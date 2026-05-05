@@ -11,6 +11,7 @@ export const ROUTES = {
   DEPUTY: '/deputy',
   INFRASTRUCTURE: '/infrastructure',
   STUDYPLAN: '/studyplan',
+  SCHEDULE: '/schedule',
   MANAGEMENT: '/management',
   GALLERY: '/gallery',
   CONDITIONS: '/conditions',

@@ -37,7 +37,7 @@ const Directions = () => {
 
                 return (
                   <Link
-                    to={`/directions/${itemId}`}
+                    to={`${ROUTES.DIRECTIONS}/${itemId}`}
                     key={itemId}
                     className="group flex flex-col md:flex-row bg-white rounded-[24px] overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-white hover:border-[#D4A259]/30"
                   >

@@ -20,9 +20,14 @@ const AdminNews = () => {
     };
 
     const [formData, setFormData] = useState({
-        title: '',
-        description: '',
-        image: ''
+        title_ru: '',
+        title_uz: '',
+        title_en: '',
+        description_ru: '',
+        description_uz: '',
+        description_en: '',
+        image: '',
+        date: ''
     });
 
     // --- НОВОЕ: ID редактируемой новости ---
@@ -79,21 +84,28 @@ const AdminNews = () => {
         }
     };
 
-    // --- НОВОЕ: ФУНКЦИЯ ВЫБОРА НОВОСТИ ДЛЯ РЕДАКТИРОВАНИЯ ---
     const handleEdit = (news) => {
         setEditId(news._id || news.id);
         setFormData({
-            title: news.title,
-            description: news.description,
+            title_ru: news.title_ru || '',
+            title_uz: news.title_uz || '',
+            title_en: news.title_en || '',
+            description_ru: news.description_ru || '',
+            description_uz: news.description_uz || '',
+            description_en: news.description_en || '',
+            date: news.date ? news.date.split('T')[0] : '',
             image: news.image || ''
         });
-        window.scrollTo({ top: 0, behavior: 'smooth' }); // Скролл к форме
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
-    // --- НОВОЕ: ОЧИСТКА ФОРМЫ (ОТМЕНА РЕДАКТИРОВАНИЯ) ---
     const resetForm = () => {
         setEditId(null);
-        setFormData({ title: '', description: '', image: '' });
+        setFormData({
+            title_ru: '', title_uz: '', title_en: '',
+            description_ru: '', description_uz: '', description_en: '',
+            date: '', image: ''
+        });
         setStatus('');
     };
 
@@ -160,22 +172,77 @@ const AdminNews = () => {
                     <p className="text-sm text-gray-500 mb-6 italic">Подсказка: скопируй картинку и нажми Ctrl+V</p>
 
                     <form onSubmit={handleSubmit} className="space-y-5">
-                        <input
-                            type="text"
-                            placeholder="Заголовок новости"
-                            className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:ring-2 focus:ring-[#D4A259] outline-none transition"
-                            value={formData.title}
-                            onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-                            required
-                        />
+                        {/* ПОЛЕ ДЛЯ ДАТЫ */}
+                        <div>
+                            <label className="block text-sm font-semibold text-gray-700 mb-2">Дата публикации</label>
+                            <input
+                                type="date"
+                                className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl focus:ring-2 focus:ring-[#D4A259] outline-none transition"
+                                value={formData.date}
+                                onChange={(e) => setFormData({ ...formData, date: e.target.value })}
+                                required
+                            />
+                        </div>
 
-                        <textarea
-                            placeholder="Текст новости..."
-                            className="w-full p-4 bg-gray-50 border border-gray-200 rounded-2xl h-44 focus:ring-2 focus:ring-[#D4A259] outline-none transition"
-                            value={formData.description}
-                            onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                            required
-                        />
+                        {/* БЛОК НА РУССКОМ */}
+                        <div className="p-5 bg-blue-50/50 rounded-2xl border border-blue-100 space-y-4">
+                            <h3 className="text-blue-600 font-bold text-sm uppercase tracking-wider">Русская версия (RU)</h3>
+                            <input
+                                type="text"
+                                placeholder="Заголовок на русском"
+                                className="w-full p-4 bg-white border border-gray-200 rounded-xl outline-none focus:border-blue-400"
+                                value={formData.title_ru}
+                                onChange={(e) => setFormData({ ...formData, title_ru: e.target.value })}
+                                required
+                            />
+                            <textarea
+                                placeholder="Текст новости на русском"
+                                className="w-full p-4 bg-white border border-gray-200 rounded-xl h-32 outline-none focus:border-blue-400"
+                                value={formData.description_ru}
+                                onChange={(e) => setFormData({ ...formData, description_ru: e.target.value })}
+                                required
+                            />
+                        </div>
+
+                        {/* БЛОК НА УЗБЕКСКОМ */}
+                        <div className="p-5 bg-green-50/50 rounded-2xl border border-green-100 space-y-4">
+                            <h3 className="text-green-600 font-bold text-sm uppercase tracking-wider">O'zbekcha versiyasi (UZ)</h3>
+                            <input
+                                type="text"
+                                placeholder="Sarlavha (O'zbekcha)"
+                                className="w-full p-4 bg-white border border-gray-200 rounded-xl outline-none focus:border-green-400"
+                                value={formData.title_uz}
+                                onChange={(e) => setFormData({ ...formData, title_uz: e.target.value })}
+                                required
+                            />
+                            <textarea
+                                placeholder="Matn (O'zbekcha)"
+                                className="w-full p-4 bg-white border border-gray-200 rounded-xl h-32 outline-none focus:border-green-400"
+                                value={formData.description_uz}
+                                onChange={(e) => setFormData({ ...formData, description_uz: e.target.value })}
+                                required
+                            />
+                        </div>
+
+                        {/* БЛОК НА АНГЛИЙСКОМ */}
+                        <div className="p-5 bg-green-50/50 rounded-2xl border border-green-100 space-y-4">
+                            <h3 className="text-red-600 font-bold text-sm uppercase tracking-wider">English version (EN)</h3>
+                            <input
+                                type="text"
+                                placeholder="Sarlavha (O'zbekcha)"
+                                className="w-full p-4 bg-white border border-gray-200 rounded-xl outline-none focus:border-green-400"
+                                value={formData.title_en}
+                                onChange={(e) => setFormData({ ...formData, title_en: e.target.value })}
+                                required
+                            />
+                            <textarea
+                                placeholder="About (English)"
+                                className="w-full p-4 bg-white border border-gray-200 rounded-xl h-32 outline-none focus:border-green-400"
+                                value={formData.description_en}
+                                onChange={(e) => setFormData({ ...formData, description_en: e.target.value })}
+                                required
+                            />
+                        </div>
 
                         <div>
                             <label className="block text-sm font-semibold text-gray-700 mb-2">Ссылки на фото</label>
@@ -244,7 +311,7 @@ const AdminNews = () => {
                                         alt=""
                                     />
                                     <div>
-                                        <p className="font-bold text-xs text-[#0E1A2B] line-clamp-1">{news.title}</p>
+                                        <p className="font-bold text-xs text-[#0E1A2B] line-clamp-1">{news.title_ru || news.title_uz}</p>
                                         <p className="text-[10px] text-blue-500 italic">Нажмите, чтобы изменить</p>
                                     </div>
                                 </div>

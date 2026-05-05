@@ -21,6 +21,7 @@ i18n
                         education: "Обучение",
                         directions: "Направления",
                         study_plan: "Учебный план",
+                        schedule: "Расписание",
                         achievements: "Достижения",
                         admission: "Поступление",
                         conditions: "Условия",
@@ -38,7 +39,7 @@ i18n
                         apply_short: "Поступить"
                     },
                     // Поиск
-                    search_placeholder: "Поиск по сайту...",
+                    search_placeholder: "Поиск...",
                     search: {
                         found: "Найдено в разделах"
                     },
@@ -108,7 +109,7 @@ i18n
                                 },
                                 two: {
                                     title: "Свобода творчества",
-                                    desc: "Школа Бенькова — это место, где поощряются смелые эксперименты. Мы создаем среду, в которой студент не боится ошибаться и искать свой уникальный почерк.",
+                                    desc: "Школа Бенькова - это место, где поощряются смелые эксперименты. Мы создаем среду, в которой студент не боится ошибаться и искать свой уникальный почерк.",
                                     tag_1: "Мастерские",
                                     tag_2: "Выставки"
                                 }
@@ -182,22 +183,26 @@ i18n
                             "theatrical-props": {
                                 title: "Театральная бутафория",
                                 desc: "В этом направлении готовятся кадры по двум специальностям: художник-бутафор театрального искусства и руководитель кружка изобразительного искусства. Для того, чтобы учащиеся глубоко усвоили профессию, они изучают работу в мастерской, проектирование, искусство театральной бутафории, технику нанесения узора на материю, театральный макет. На занятиях по этим предметам они занимаются изготовлением мягких игрушек, форм из папье-маше, покраской и лакировкой моделей, имитацией предметов украшения и др. Творческая работа художника-бутафора оказывает большое влияние на привлекательность сценического действа.",
-                                desc1: "Преданные своему делу заботливые учителя и трудолюбивые педагоги-художники Петрова Нина, Кляйер Галина, Дементьева Елена, Эгамбердиева Дилнора помогают учащимся в овладении секретами данной профессии. Выпускники этой специальности работают во всех театрах Узбекистана.Республиканский художественный колледж имени П. Бенькова — единственное учебное заведение, готовящее специалистов в этой области."
+                                desc1: "Преданные своему делу заботливые учителя и трудолюбивые педагоги-художники Петрова Нина, Кляйер Галина, Дементьева Елена, Эгамбердиева Дилнора помогают учащимся в овладении секретами данной профессии. Выпускники этой специальности работают во всех театрах Узбекистана.Республиканский художественный колледж имени П. Бенькова - единственное учебное заведение, готовящее специалистов в этой области."
                             },
                             "wood-carving": {
                                 title: "Резьба по дереву",
-                                desc: "Резьба по дереву — одно из древнейших и широко распространённых ремёсел, получивших развитие на территории Узбекистана. Жилые здания, колонны, потолки, окна и двери различных сооружений украшались резными изделиями из дерева.Учащиеся отделения постигают секреты работы с деревом, нанесения на деревянную основу узоров, изготовления различных форм и узоров, в том числе форм 'хандасавий' (при изготовлении решёток, перил, оград), растительных и геометрических узоров.",
+                                desc: "Резьба по дереву - одно из древнейших и широко распространённых ремёсел, получивших развитие на территории Узбекистана. Жилые здания, колонны, потолки, окна и двери различных сооружений украшались резными изделиями из дерева.Учащиеся отделения постигают секреты работы с деревом, нанесения на деревянную основу узоров, изготовления различных форм и узоров, в том числе форм 'хандасавий' (при изготовлении решёток, перил, оград), растительных и геометрических узоров.",
                                 desc1: "Искусные мастера, знатоки своего дела Тураев Туроб, Мирзаев Баходир обучают своих учеников традициям древних мастеров резьбы по дереву. Выпускники данного отделения работают на государственных и в частных ремесленных предприятиях."
                             },
                             "ganch-carving": {
                                 title: "Резьба по ганчу",
                                 desc: "Учащихся отделения обучают оформлению помещений, изучению особенностей использования цвета в орнаментальных композициях, постижению секретов использования естественных оттенков цвета, условностей использования цвета и форм, а также умелому использованию естественной фактуры материалов.",
-                                desc1: "Кроме того, они осваивают виды 'ислими', 'гирих', их разные и общие черты, основные элементы, используемые в их создании (геометрические формы в 'гирихе', а в 'ислими' — стилизованные природные формы, то есть условные изображения растений и животных), а также целесообразное использование цветов и таких изобразительных средств, как их гамма, колорит, ритм, симметрия и асимметрия и т.д. Секретам орнамента обучает учеников талантливый художник Ибрагимов Собир."
+                                desc1: "Кроме того, они осваивают виды 'ислими', 'гирих', их разные и общие черты, основные элементы, используемые в их создании (геометрические формы в 'гирихе', а в 'ислими' - стилизованные природные формы, то есть условные изображения растений и животных), а также целесообразное использование цветов и таких изобразительных средств, как их гамма, колорит, ритм, симметрия и асимметрия и т.д. Секретам орнамента обучает учеников талантливый художник Ибрагимов Собир."
+                            },
+                            "monumental-decorative": {
+                                title: "Монумент декоративное искусство",
+                                desc: "Работа с глиной, формами и глазурью. Создание авторской посуды и скульптур."
                             },
                             "costume-designer": {
                                 title: "Художник по костюмам",
                                 desc: "В этом направлении готовятся кадры по двум специальностям: художник театрального костюма и руководитель кружка изобразительного искусства. Учащиеся получают знания о роли и месте одежды в обществе, искусстве создания костюмов, особенностях костюмов Древнего Востока, Средней Азии, античной Греции и Рима, Европейского средневековья, Ближнего Востока, эпохи Ренессанса, Европы и России нового времени, обретают профессиональные навыки шитья исторических костюмов на основе современных технологий. Кроме того, они овладевают мастерством создания композиций этнографических, исторических костюмов народов мира, моделирования и технологией создания и пошива современных и исторических театральных костюмов, художественной обработки тканей, нанесению узоров на ткани трафаретно-печатным способом и технологии батика, технологии создания художественных кружев, парчи и золотошвейных изделий, аксессуаров (шарфов) путём покраски ткани методами 'шибори и банддон', овладевают искусством создания композиций костюмов национальных, исторических и сказочных персонажей.",
-                                desc1: "В этом направлении готовятся кадры по двум специальностям: художник театрального костюма и руководитель кружка изобразительного искусства. Учащиеся получают знания о роли и месте одежды в обществе, искусстве создания костюмов, особенностях костюмов Древнего Востока, Средней Азии, античной Греции и Рима, Европейского средневековья, Ближнего Востока, эпохи Ренессанса, Европы и России нового времени, обретают профессиональные навыки шитья исторических костюмов на основе современных технологий. Кроме того, они овладевают мастерством создания композиций этнографических, исторических костюмов народов мира, моделирования и технологией создания и пошива современных и исторических театральных костюмов, художественной обработки тканей, нанесению узоров на ткани трафаретно-печатным способом и технологии батика, технологии создания художественных кружев, парчи и золотошвейных изделий, аксессуаров (шарфов) путём покраски ткани методами 'шибори и банддон', овладевают искусством создания композиций костюмов национальных, исторических и сказочных персонажей."
+                                desc1: "Овладев профессией, педагоги-художники обучают своих учеников моделированию национальных, исторических и современных костюмов, основам профессии швеи.В настоящее время этой специальности, чрезвычайно востребованной в театральном и киноискусстве, учат молодое поколение такие мастера своего дела, как Игнатьева Ольга, Алимова Гулчехра, Саидбердиева Саодат, Зияева Дилдора, Эргашева Окибат, Эрматова Дилфуза, Кузиева Малика, Рашидова Дурдона, Рахматуллаева Шахноза, Рашидхужаева Нодира, Тожибоева Нигора, Зокиржонова Малика, Садирова Шахноза, Хамидова Дилноза, Кучкарова Наргиза, Сагатова Гавхар, Ядиярова Ситора, Каюмова Дилдора, Чибисова Майре, Холматова Маъмура, Аскарова Шахноза, Сафиева Нилуфар, Махкамова Жамила, Зокирова Маъмура."
                             },
                             "interior-designer": {
                                 title: "Дизайн интерьера",
@@ -213,7 +218,7 @@ i18n
                             },
                             "sculpture": {
                                 title: "Скульптура",
-                                desc: "Педагоги, работающие на отделении по специальностям: скульптор и художник архитектурно-декоративной пластики вносят значительный вклад в дело развития искусства скульптуры, опираясь на лучшие национальные традиции в этой области. Учащиеся получают знания по работе с материалами и инструментами, используемыми в мастерских скульптуры, обретая навыки изготовления клеевых форм, гипсовых моделей, а также гипсовых форм различной геометрической конфигурации, использованию современных технологий по снятию форм простых и сложных розеток и т.д. Учащиеся обучаются изготовлению различных розеток, копий античных скульптур и их частей: глаз, ушей, носов, разрезов головы, античных портретов и бюстов, а также созданию портретов и бюстов с натуры. Их преподаватели — талантливые скульпторы, Пашаев Фуркат, Отаназаров Улугбек, Бокиев Йигитали.",
+                                desc: "Педагоги, работающие на отделении по специальностям: скульптор и художник архитектурно-декоративной пластики вносят значительный вклад в дело развития искусства скульптуры, опираясь на лучшие национальные традиции в этой области. Учащиеся получают знания по работе с материалами и инструментами, используемыми в мастерских скульптуры, обретая навыки изготовления клеевых форм, гипсовых моделей, а также гипсовых форм различной геометрической конфигурации, использованию современных технологий по снятию форм простых и сложных розеток и т.д. Учащиеся обучаются изготовлению различных розеток, копий античных скульптур и их частей: глаз, ушей, носов, разрезов головы, античных портретов и бюстов, а также созданию портретов и бюстов с натуры. Их преподаватели - талантливые скульпторы, Пашаев Фуркат, Отаназаров Улугбек, Бокиев Йигитали.",
                                 desc1: "Произведения, созданные учащимися и выпускниками отделения скульптуры, украшают площади многих городов Узбекистана."
                             },
                             "artist-restorer": {
@@ -249,7 +254,7 @@ i18n
                             two: {
                                 tag: "Этап II",
                                 title: "1928 – 1949: Школа Бенкова",
-                                text1: "7 октября 1928 года Самаркандская специальная художественная школа была преобразована в Самаркандский колледж изящных искусств. С 1930 по 1939 год этот колледж назывался Самаркандским художественным колледжем, а с 1939 по 1949 год — Самаркандской художественной школой.",
+                                text1: "7 октября 1928 года Самаркандская специальная художественная школа была преобразована в Самаркандский колледж изящных искусств. С 1930 по 1939 год этот колледж назывался Самаркандским художественным колледжем, а с 1939 по 1949 год - Самаркандской художественной школой.",
                                 text2: "26 июля 1941 года приказом № 502 Управления по делам искусств Совета народных комиссариатов Узбекской ССР была создана Республиканская школа изящных искусств на базе Ташкентской и Самаркандской художественных школ. Директор Ташкентской школы изящных искусств Жемчужников передал имущество школы директору Самаркандской художественной школы Мясникову.",
                                 text3: "В 1949 году по решению правительства Узбекистана Самаркандская художественная школа имени П. Бенкова и Ташкентское художественное училище были объединены и реорганизованы в Республиканскую художественную школу имени Павла Петровича Бенкова в Ташкенте.",
                                 text4: "Это учебное заведение всегда называлось в народе «Узбекской школой искусств». В соответствии с постановлением Правительства Узбекистана от 1949 года Самаркандская школа искусств была названа в честь народного художника Узбекистана, деятеля искусства Павла Петровича Бенкова, которому он посвятил свою творческую и педагогическую жизнь, чтобы почтить его вклад в развитие узбекского изобразительного искусства и увековечить имя известного мастера живописи."
@@ -278,7 +283,7 @@ i18n
                             items: [
                                 { year: "1946-1947-е", name: "Реставратор и Скульптура", desc: "В школе существовали отделения реставратор живописи и скульптуры." },
                                 { year: "1952-1953-е", name: "Прикладное искусство", desc: "Был открыт факультет прикладных искусств (художественная обработка стекла, шелкоткачество, ковроткачество, технология обработки древесины, резьба по дереву и ганчкори)." },
-                                { year: "1960-е", name: "Дизайн и Текстиль", desc: "В школе открылись отделения театральной техники — реквизита, освещения, костюмов и грима." },
+                                { year: "1960-е", name: "Дизайн и Текстиль", desc: "В школе открылись отделения театральной техники - реквизита, освещения, костюмов и грима." },
                                 { year: "1975-е", name: "Керамика и дизайн интерьера", desc: "Были созданы отделения художественного оформления (Керамика, дизайн интерьеров)." },
                                 { year: "1981-е", name: "Миниатюра и бутафория", desc: "Были открыты следующие отделы: лаковая миниатюра, техника сценического освещения, бутафория и реквизит." },
                                 { year: "198- е", name: "Живопись и Рисунок", desc: "Факультет живописи и рисунка был закрыт и заменен факультетом декоративно-прикладного искусства." },
@@ -291,7 +296,7 @@ i18n
                         director_label: "Директор школы",
                         director_name: "Хакимов Умид Бахадирович",
                         director_name2: "Бахадирович",
-                        director_quote: "«Искусство — это не то, что вы видите, а то, что вы заставляете видеть других».",
+                        director_quote: "«Искусство - это не то, что вы видите, а то, что вы заставляете видеть других».",
                         profile_link: "Профиль руководителя",
                         deputies_title: "Заместители",
                         deputy_role: "Заместитель директора",
@@ -345,7 +350,7 @@ i18n
                             senior_teacher: "Старший преподаватель, заведующий факультетом дизайна в Республиканском колледже дизайна",
                             deputy_spiritual: "Заместитель директора по духовно-воспитательной работе РСХУ им. П. Бенькова",
                             deputy_prod: "Заместитель директора по производственной (практической) работе РСХУ им. П. Бенькова",
-                            director_school: "Директор Республиканского специализированного художественного училища — интерната",
+                            director_school: "Директор Республиканского специализированного художественного училища - интерната",
                             student_tspu: "Студент ТГПУ имени Низами",
                             aspirant_tspu: "Аспирант ТГПУ имени Низами",
                             teacher_design_school: "Преподаватель Республиканской специализированной школы дизайна",
@@ -395,10 +400,10 @@ i18n
                         }
                     },
                     achievements: {
-                        title: "Достижения Школы \n им. П.П. Бенькова",
+                        title: "Достижения Школы им. П.П. Бенькова",
                         subtitle: "Наследие и триумфы",
                         description: "Республиканская специализированная художественная школа имени Павла Бенкова на протяжении более 100 лет...",
-                        footer_quote: "«Искусство не знает границ, а успех — это лишь повод ставить новые цели»",
+                        footer_quote: "«Искусство не знает границ, а успех - это лишь повод ставить новые цели»",
                         admin: "Администрация школы им. Павла Бенькова",
                         items: [
                             {
@@ -473,7 +478,7 @@ i18n
                         },
                         science: {
                             title: "Цифровое искусство",
-                            desc: "Современный компьютерный класс — это мост между классической школой и технологиями будущего. Здесь ученики осваивают графический дизайн и 3D-моделирование.",
+                            desc: "Современный компьютерный класс - это мост между классической школой и технологиями будущего. Здесь ученики осваивают графический дизайн и 3D-моделирование.",
                             span: "ТЕХНОЛОГИИ"
                         },
                         library: {
@@ -491,7 +496,7 @@ i18n
                         },
                         exhibition: {
                             title: "Живая галерея",
-                            desc: "Коридоры второго этажа — экспозиция лучших работ наших воспитанников"
+                            desc: "Коридоры второго этажа - экспозиция лучших работ наших воспитанников"
                         },
                         general: {
                             title: "Общеобразовательный блок",
@@ -502,7 +507,7 @@ i18n
                         },
                         gallery: {
                             title: "Галерея работ",
-                            desc: "Каждая работа — это шаг к мастерству. Приглашаем вас познакомиться с лучшими творениями наших воспитанников в полном объеме.",
+                            desc: "Каждая работа - это шаг к мастерству. Приглашаем вас познакомиться с лучшими творениями наших воспитанников в полном объеме.",
                             learnmore: "Перейти в галерею"
                         }
                     },
@@ -525,7 +530,7 @@ i18n
                             "Художник кино и телевидения", "Художник лаковой миниатюры", "Художник-график",
                             "Станковая живопись", "Монументальная живопись", "Театральный живописец-декоратор",
                             "Театральная бутафория", "Мастер-художник художественной резьбы по дереву",
-                            "Мастер-художник художественной резьбы по гипсу (ганчу)",
+                            "Мастер-художник художественной резьбы по гипсу (ганчу)", "Монументально-декаративное искусство",
                             "Художник по костюмам", "Дизайн интерьера", "Дизайн компьютерной графики",
                             "Художественная керамика", "Скульптура", "Художник-реставратор живописи и произведений прикладного искусства"
                         ]
@@ -537,7 +542,125 @@ i18n
                         projectTitle: "Творческий проект №",
                         prev: "← Пред",
                         next: "След →",
-                        footerText: "Показано {{start}} — {{end}} из {{total}} работ"
+                        footerText: "Показано {{start}} - {{end}} из {{total}} работ"
+                    },
+                    newsDetail: {
+                        back_to_news: "Назад к новостям",
+                        loading: "Загрузка...",
+                        not_found: "Новость не найдена",
+                        date_placeholder: "Дата не указана",
+                        share: "Поделиться"
+                    },
+                    study_plan: {
+                        title: "Учебный план",
+                        department: "Специальность"
+                    },
+                    stude_detail: {
+                        not_found: "Направление не найдено",
+                        back_to_list: "Вернуться к списку",
+                        back: "Назад",
+                        curriculum_label: "Программа обучения по классам",
+                        grade_suffix: "КЛАСС"
+                    },
+                    subjects: {
+                        draftsman: "Черчение",
+                        painting: "Живопись",
+                        composition: "Композиция",
+                        film_and_television_decoration: "Оформление кино и ТВ",
+                        computer_graphics: "Компьютерная графика",
+                        practice: "Практика",
+                        movie_scenery: "Кинодекорация",
+                        plastic_anatomy: "Пластическая анатомия",
+                        practical_training: "Производственная практика",
+                        materials_science: "Материаловедение",
+                        color_theory: "Цветоведение",
+                        calligraphy: "Каллиграфия",
+                        lacquered_miniature_carpentry: "Столярное дело миниатюры",
+                        book_art: "Искусство книги",
+                        carpentry: "Столярное дело",
+                        shrift: "Шрифт",
+                        painting_technique: "Техника живописи",
+                        composition_in_materials: "Композиция в материале",
+                        projecting: "Проектирование",
+                        theater_layout: "Театральный макет",
+                        stage_technique: "Техника сцены",
+                        painting_techniques_and_materials_technology: "Технология живописных материалов",
+                        workshop_practice: "Мастерство",
+                        the_art_of_theatrical_props: "Бутафорское искусство",
+                        embellishment_on_fabric: "Роспись по ткани",
+                        artistic_processing_of_objects: "Художественная обработка предметов",
+                        modeling: "Моделирование",
+                        matolarga_ishlov_berish: "Обработка тканей",
+                        practice_training: "Учебная практика",
+                        construction: "Конструирование",
+                        shtift: "Шрифт",
+                        working_with_materials: "Работа в материале",
+                        clay_modeling: "Работа с глиной",
+                        sculpture: "Скульптура",
+                        art_restoration: "Реставрация искусства",
+                        techniques_of_painting_materials: "Техника живописных материалов",
+                        technological_progress: "Технологический процесс",
+                        photography: "Фотография",
+                        reproduction: "Репродукция"
+                    },
+                    schedule: {
+                        title: "Режим занятий",
+                        routine_label: "Школьный распорядок",
+                        punctuality_title: "Пунктуальность",
+                        punctuality_text: "Мы ценим время наших студентов и преподавателей. Убедительная просьба приходить за 10 минут до начала первой пары.",
+                        special_title: "Специальные",
+                        theory_title: "Теория и база",
+                        theory_text: "В свободные от профиля дни проводятся общеобразовательные дисциплины.",
+                        mon_wed: "Понедельник ~ Среда",
+                        thu_sat: "Четверг ~ Суббота",
+                        grades_8_11: "8 и 11 классы",
+                        grades_9_10: "9 и 10 классы",
+                        pairs: {
+                            p1: { title: "1 пара", desc: "Начало учебного дня", note: "Короткий перерыв" },
+                            p2: { title: "2 пара", desc: "Время для отдыха и ланча (40 мин)", note: "Большая перемена" },
+                            p3: { title: "3 пара", desc: "Продолжение занятий", note: "Короткий перерыв" },
+                            p4: { title: "4 пара", desc: "Окончание академических часов", note: "Завершение дня" }
+                        }
+                    },
+                    conditions: {
+                        title: "Вступление в семью Бенькова",
+                        subtitle: "Твой творческий путь начинается с первого штриха",
+
+                        dates_title: "Когда нас ждать?",
+                        docs_period: "1 - 30 июня - время документов",
+                        exams_period: "5 - 20 июля - время экзаменов",
+
+                        steps_title: "Что нужно от тебя:",
+                        step_1: "Законченный 7-й класс",
+                        step_2: "Папка с твоими работами",
+                        step_3: "Желание созидать",
+
+                        process_title: "Как всё проходит",
+                        process_text: "Всё просто и честно: ты приходишь в назначенное время, получаешь место в тихой мастерской и натюрморт. Есть только ты, бумага и твоё видение. У тебя будет несколько часов, чтобы показать свой талант.",
+                        result_text: "После экзаменов мы внимательно изучим каждую работу. Если ты прошел - следи за новостями!",
+                    },
+                    documents: {
+                        title: "Необходимые документы",
+                        subtitle: "Подготовьте пакет документов для поступления",
+                        list_title: "Основной пакет",
+                        additional_title: "Дополнительно",
+                        contacts_title: "Приёмная комиссия",
+
+                        // Список документов
+                        item_1: "Заявление на имя директора",
+                        item_2: "Копия свидетельства о рождении",
+                        item_3: "Табель об окончании 7 класса",
+                        item_4: "Медицинская справка (формы 086-У и 063)",
+                        item_5: "6 фотографий размером 3×4",
+                        item_6: "Копия паспорта родителей",
+                        item_7: "Творческие работы (не менее 20 работ)",
+
+                        // Доп материалы
+                        folder: "Папка на завязках - 1 шт",
+                        envelope: "Конверт - 1 шт",
+
+                        // Контакты
+                        phone_label: "Для справок:"
                     }
 
                 }
@@ -554,6 +677,7 @@ i18n
                         education: "Ta'lim",
                         directions: "Yo'nalishlar",
                         study_plan: "O'quv rejasi",
+                        schedule: "Jadval",
                         achievements: "Yutuqlar",
                         admission: "Qabul",
                         conditions: "Shartlar",
@@ -581,8 +705,8 @@ i18n
                     },
                     footer: {
                         connect: "Biz bilan aloqa",
-                        visit_us: "Sizni mehmonga kutamiz",
-                        visit_us_highlight: "",
+                        visit_us: "Sizni mehmonga",
+                        visit_us_highlight: "kutamiz",
                         address_title: "Manzilimiz",
                         address_value: "Toshkent sh., Yakkasaroy tumani, Sh. Rustaveli ko'chasi, 15",
                         reception: "Qabulxona",
@@ -638,7 +762,7 @@ i18n
                                 },
                                 two: {
                                     title: "Ijod erkinligi",
-                                    desc: "Benkov maktabi — bu dadil tajribalar rag'batlantiriladigan joy. Biz talaba xato qilishdan qo'rqmaydigan va o'ziga xos uslubini izlaydigan muhitni yaratamiz.",
+                                    desc: "Benkov maktabi - bu dadil tajribalar rag'batlantiriladigan joy. Biz talaba xato qilishdan qo'rqmaydigan va o'ziga xos uslubini izlaydigan muhitni yaratamiz.",
                                     tag_1: "Ustaxonalar",
                                     tag_2: "Ko'rgazmalar"
                                 }
@@ -724,6 +848,10 @@ i18n
                                 desc: "Kafedrada talabalarga interyer dizayni, bezak kompozitsiyalarida rangdan foydalanish, tabiiy rang soyalaridan foydalanish sirlari, rang va shakl konventsiyalari, materiallarning tabiiy teksturasidan mohirona foydalanish kabi fanlar o‘rgatiladi.",
                                 desc1: "Bundan tashqari, ular “islimi” va “girih” turlarini, ularning bir-biridan farqli va umumiy belgilarini, ularni yaratishda qoʻllanilgan asosiy elementlarni (“girih”da geometrik shakllar, “islimi”da esa stilize qilingan tabiiy shakllar, yaʼni oʻsimlik va hayvonlarning anʼanaviy tasvirlarini), shuningdek, ranglar va tasviriy vositalardan ularning diapazoni, rangi, ritmimetriyasi, ritmmetriyasi va boshqalarni oʻrinli ishlatishni oʻzlashtiradilar. Ibragimov Sobir o‘quvchilarga bezak berish sirlarini o‘rgatadi."
                             },
+                            "monumental-decorative": {
+                                title: "Mahobatlik bezak san’ati",
+                                desc: ""
+                            },
                             "costume-designer": {
                                 title: "Tarixiy teatr liboslari san’ati rassomi",
                                 desc: "Ushbu yo‘nalishda ikki mutaxassislik bo‘yicha kadrlar tayyorlanadi: teatr kostyumi rassomi va tasviriy san’at to‘garagi rahbari. Talabalar jamiyatda kiyimning o‘rni va ahamiyati, kostyum yaratish san’ati, Qadimgi Sharq, O‘rta Osiyo, antik Yunoniston va Rim, O‘rta asrlar Yevropasi, Yaqin Sharq, Uyg‘onish davri, Yevropa hamda Rossiyaning yangi davri kostyumlarining o‘ziga xos xususiyatlari haqida bilim oladilar, shuningdek zamonaviy texnologiyalar asosida tarixiy kostyumlarni tikish bo‘yicha kasbiy ko‘nikmalarga ega bo‘ladilar.Bundan tashqari, ular dunyo xalqlarining etnografik va tarixiy kostyum kompozitsiyalarini yaratish, zamonaviy hamda tarixiy teatr kostyumlarini modellashtirish va tikish texnologiyasi, matolarni badiiy bezash, trafaret-bosma usulida matoga naqsh tushirish hamda batik texnologiyasi, badiiy to‘rlar, parcha (brokat) va zar tikish mahsulotlarini yaratish, shuningdek “shibori” va “bandhani” usullarida matoni bo‘yash orqali sharflar kabi aksessuarlar tayyorlash san’atini egallaydilar. Shuningdek, ular milliy, tarixiy va ertak qahramonlari kostyum kompozitsiyalarini yaratish mahoratini ham o‘zlashtiradilar.",
@@ -743,7 +871,7 @@ i18n
                             },
                             "sculpture": {
                                 title: "Haykaltaroshlik",
-                                desc: "Haykaltarosh va me’moriy-dekorativ plastika rassomi mutaxassisliklari bo‘yicha faoliyat yurituvchi pedagoglar haykaltaroshlik san’atini rivojlantirish ishiga milliy an’analarning eng yaxshi jihatlariga tayangan holda salmoqli hissa qo‘shmoqdalar. Talabalar haykaltaroshlik ustaxonalarida qo‘llaniladigan materiallar va asbob-uskunalar bilan ishlash bo‘yicha bilim oladilar, elim qoliplar tayyorlash, gips modellari yasash, turli geometrik shakldagi gips qoliplarini tayyorlash, oddiy va murakkab rozettalarni qolipdan olishning zamonaviy texnologiyalarini qo‘llash kabi ko‘nikmalarni egallaydilar.Talabalar turli rozettalar yasash, antik haykallar va ularning qismlaridan — ko‘z, quloq, burun, bosh bo‘laklari, antik portretlar va byustlar nusxalarini yaratish, shuningdek, naturadan portret va byustlar ishlashni o‘rganadilar. Ularning ustozlari iste’dodli haykaltaroshlar: Pashayev Furqat, Otonazarov Ulug‘bek va Bokiev Yigitali.",
+                                desc: "Haykaltarosh va me’moriy-dekorativ plastika rassomi mutaxassisliklari bo‘yicha faoliyat yurituvchi pedagoglar haykaltaroshlik san’atini rivojlantirish ishiga milliy an’analarning eng yaxshi jihatlariga tayangan holda salmoqli hissa qo‘shmoqdalar. Talabalar haykaltaroshlik ustaxonalarida qo‘llaniladigan materiallar va asbob-uskunalar bilan ishlash bo‘yicha bilim oladilar, elim qoliplar tayyorlash, gips modellari yasash, turli geometrik shakldagi gips qoliplarini tayyorlash, oddiy va murakkab rozettalarni qolipdan olishning zamonaviy texnologiyalarini qo‘llash kabi ko‘nikmalarni egallaydilar.Talabalar turli rozettalar yasash, antik haykallar va ularning qismlaridan - ko‘z, quloq, burun, bosh bo‘laklari, antik portretlar va byustlar nusxalarini yaratish, shuningdek, naturadan portret va byustlar ishlashni o‘rganadilar. Ularning ustozlari iste’dodli haykaltaroshlar: Pashayev Furqat, Otonazarov Ulug‘bek va Bokiev Yigitali.",
                                 desc1: "Haykaltaroshlik bo‘limi talabalari va bitiruvchilari tomonidan yaratilgan asarlar O‘zbekistonning ko‘plab shaharlari maydonlarini bezab turibdi."
                             },
                             "artist-restorer": {
@@ -808,7 +936,7 @@ i18n
                             items: [
                                 { year: "1946–1947", name: "Restavratsiya va haykaltaroshlik", desc: "Maktabda rangtasvir restavratsiyasi va haykaltaroshlik yo‘nalishlari mavjud edi." },
                                 { year: "1952–1953", name: "Amaliy san’at", desc: "Amaliy san’at fakulteti ochildi (shisha ishlov berish, ipakchilik, gilamchilik, yog‘ochga ishlov berish va ganch o‘ymakorligi)." },
-                                { year: "1960-yillar", name: "Dizayn va tekstil", desc: "Teatr texnikasi yo‘nalishlari — rekvizit, yoritish, libos va grim bo‘limlari ochildi." },
+                                { year: "1960-yillar", name: "Dizayn va tekstil", desc: "Teatr texnikasi yo‘nalishlari - rekvizit, yoritish, libos va grim bo‘limlari ochildi." },
                                 { year: "1975", name: "Keramika va interyer dizayni", desc: "Badiiy bezak yo‘nalishlari (keramika va interyer dizayni) tashkil etildi." },
                                 { year: "1981", name: "Miniatyura va butaforiya", desc: "Lokli miniatyura, sahna yoritish texnikasi va butaforiya bo‘limlari ochildi." },
                                 { year: "1980-yillar", name: "Rangtasvir va chizmachilik", desc: "Rangtasvir va chizmachilik fakulteti yopilib, o‘rniga amaliy san’at yo‘nalishi tashkil etildi." }
@@ -821,7 +949,7 @@ i18n
                         director_label: "Maktab direktori",
                         director_name: "Xakimov Umid ",
                         director_name2: "Baxadirovich",
-                        director_quote: "«San'at — bu siz ko'rgan narsa emas, balki boshqalarga ko'rsata olgan narsangizdir».",
+                        director_quote: "«San'at - bu siz ko'rgan narsa emas, balki boshqalarga ko'rsata olgan narsangizdir».",
                         profile_link: "Rahbar profili",
                         deputies_title: "O'rinbosarlar",
                         deputy_role: "Direktor o'rinbosari",
@@ -925,7 +1053,7 @@ i18n
                         }
                     },
                     achievements: {
-                        title: "P.P. Benkov nomidagi maktab \n yutuqlari",
+                        title: "P.P. Benkov nomidagi maktab yutuqlari",
                         subtitle: "Meros va yutuqlar",
                         description: "Pavel Benkov nomidagi Respublika ixtisoslashtirilgan san’at maktabi 100 yildan ortiq vaqt davomida...",
                         footer_quote: "«San’at chegaralarni bilmaydi, muvaffaqiyat esa faqat yangi maqsadlar qo‘yish uchun sababdir»",
@@ -1003,7 +1131,7 @@ i18n
                         },
                         science: {
                             title: "Raqamli san’at",
-                            desc: "Zamonaviy kompyuter xonasi — klassik maktab va kelajak texnologiyalari o‘rtasidagi ko‘prik. Bu yerda o‘quvchilar grafik dizayn va 3D modellashtirishni o‘rganadilar.",
+                            desc: "Zamonaviy kompyuter xonasi - klassik maktab va kelajak texnologiyalari o‘rtasidagi ko‘prik. Bu yerda o‘quvchilar grafik dizayn va 3D modellashtirishni o‘rganadilar.",
                             span: "TEXNOLOGIYALAR"
                         },
                         library: {
@@ -1021,7 +1149,7 @@ i18n
                         },
                         exhibition: {
                             title: "Jonli galereya",
-                            desc: "Ikkinchi qavat yo‘laklari — o‘quvchilarimizning eng yaxshi ishlaridan iborat ekspozitsiya"
+                            desc: "Ikkinchi qavat yo‘laklari - o‘quvchilarimizning eng yaxshi ishlaridan iborat ekspozitsiya"
                         },
                         general: {
                             title: "Umumta’lim bloki",
@@ -1032,7 +1160,7 @@ i18n
                         },
                         gallery: {
                             title: "Ishlar galereyasi",
-                            desc: "Har bir ish — bu mahorat sari qadam. Sizni o‘quvchilarimizning eng yaxshi ishlarini to‘liq ko‘rishga taklif qilamiz.",
+                            desc: "Har bir ish - bu mahorat sari qadam. Sizni o‘quvchilarimizning eng yaxshi ishlarini to‘liq ko‘rishga taklif qilamiz.",
                             learnmore: "Galereyaga o‘tish"
                         }
                     },
@@ -1055,7 +1183,7 @@ i18n
                             "Kino va televideniye rassomi", "Laka miniatyurasi rassomi", "Rassom-grafik",
                             "Dastgohli rangtasvir", "Mahobatli rangtasvir", "Teatr rassomi-dekoratori",
                             "Teatr butaforiyasi", "Yog'och o'ymakorligi ustasi",
-                            "Ganch o'ymakorligi ustasi",
+                            "Ganch o'ymakorligi ustasi", "Mahobatli bezak sa'nati",
                             "Liboslar bo'yicha rassom", "Interyer dizayni", "Kompyuter grafikasi dizayni",
                             "Badiiy kulolchilik", "Haykaltaroshlik", "Rangtasvir va amaliy san'at asarlari rassom-restavratori"
                         ]
@@ -1067,7 +1195,125 @@ i18n
                         projectTitle: "Ijodiy loyiha №",
                         prev: "← Oldingi",
                         next: "Keyingi →",
-                        footerText: "{{total}} ta ishdan {{start}} — {{end}} tasi ko'rsatilgan"
+                        footerText: "{{total}} ta ishdan {{start}} - {{end}} tasi ko'rsatilgan"
+                    },
+                    newsDetail: {
+                        back_to_news: "Yangiliklarga qaytish",
+                        loading: "Yuklanmoqda...",
+                        not_found: "Yangilik topilmadi",
+                        date_placeholder: "Sana ko'rsatilmagan",
+                        share: "Ulashish"
+                    },
+                    study_plan: {
+                        title: "O‘quv rejasi",
+                        department: "Mutaxassislik"
+                    },
+                    stude_detail: {
+                        not_found: "Yo‘nalish topilmadi",
+                        back_to_list: "Ro‘yxatga qaytish",
+                        back: "Orqaga",
+                        curriculum_label: "Sinflar bo‘yicha o‘quv dasturi",
+                        grade_suffix: "SINF"
+                    },
+                    subjects: {
+                        draftsman: "Chizmachilik",
+                        painting: "Rangtasvir",
+                        composition: "Kompozitsiya",
+                        film_and_television_decoration: "Kino va TV bezagi",
+                        computer_graphics: "Kompyuter grafikasi",
+                        practice: "Amaliyot",
+                        movie_scenery: "Kino dekoratsiyasi",
+                        plastic_anatomy: "Plastik anatomiya",
+                        practical_training: "Malakaviy amaliyot",
+                        materials_science: "Materialshunoslik",
+                        color_theory: "Rangshunoslik",
+                        calligraphy: "Xattotlik",
+                        lacquered_miniature_carpentry: "Miniatyura duradgorligi",
+                        book_art: "Kitob san'ati",
+                        carpentry: "Duradgorlik ishi",
+                        shrift: "Shrift",
+                        painting_technique: "Rangtasvir texnikasi",
+                        composition_in_materials: "Materialda kompozitsiya",
+                        projecting: "Loyihalash",
+                        theater_layout: "Teatr maketi",
+                        stage_technique: "Sahna texnikasi",
+                        painting_techniques_and_materials_technology: "Rangtasvir materiallari texnologiyasi",
+                        workshop_practice: "Mahorat",
+                        the_art_of_theatrical_props: "Butaforiya san'ati",
+                        embellishment_on_fabric: "Matoga gul chizish",
+                        artistic_processing_of_objects: "Buyumlarga badiiy ishlov berish",
+                        modeling: "Modellashtirish",
+                        matolarga_ishlov_berish: "Matolarga ishlov berish",
+                        practice_training: "O'quv amaliyoti",
+                        construction: "Konstruksiya",
+                        shtift: "Shrift",
+                        working_with_materials: "Material bilan ishlash",
+                        clay_modeling: "Loy bilan ishlash",
+                        sculpture: "Haykaltaroshlik",
+                        art_restoration: "San'at asarlarini ta'mirlash",
+                        techniques_of_painting_materials: "Rangtasvir materiallari texnikasi",
+                        technological_progress: "Texnologik jarayon",
+                        photography: "Fotografiya",
+                        reproduction: "Reproduksiya"
+                    },
+                    schedule: {
+                        title: "Dars tartibi",
+                        routine_label: "Maktab tartib",
+                        punctuality_title: "Intizom",
+                        punctuality_text: "Biz talabalar va o'qituvchilar vaqtini qadrlaymiz. Birinchi dars boshlanishidan 10 daqiqa oldin kelishingizni so'raymiz.",
+                        special_title: "Mutaxassislik",
+                        theory_title: "Nazariya va baza",
+                        theory_text: "Mutaxassislik darslaridan bo'sh kunlarda umumta'lim fanlari o'tiladi.",
+                        mon_wed: "Dushanba ~ Chorshanba",
+                        thu_sat: "Payshanba ~ Shanba",
+                        grades_8_11: "8 va 11-sinflar",
+                        grades_9_10: "9 va 10-sinflar",
+                        pairs: {
+                            p1: { title: "1-juftlik", desc: "O'quv kunining boshlanishi", note: "Qisqa tanaffus" },
+                            p2: { title: "2-juftlik", desc: "Dam olish va tushlik vaqti (40 daq)", note: "Katta tanaffus" },
+                            p3: { title: "3-juftlik", desc: "Darslarning davomi", note: "Qisqa tanaffus" },
+                            p4: { title: "4-juftlik", desc: "Akademik soatlarning yakuni", note: "Kun yakuni" }
+                        }
+                    },
+                    conditions: {
+                        title: "Benkov oilasiga kirish",
+                        subtitle: "Sening ijodiy yo‘ling birinchi chiziqdan boshlanadi",
+
+                        dates_title: "Qachon kutamiz?",
+                        docs_period: "1 - 30 iyun - hujjatlar topshirish vaqti",
+                        exams_period: "5 - 20 iyul - imtihonlar vaqti",
+
+                        steps_title: "Sizdan nima kerak:",
+                        step_1: "7-sinfni tamomlagan bo‘lish",
+                        step_2: "O‘z ishlaringiz bilan papka",
+                        step_3: "Ijod qilish istagi",
+
+                        process_title: "Jarayon qanday o‘tadi",
+                        process_text: "Hammasi oddiy va halol: siz belgilangan vaqtda kelasiz, sokin ustaxonada joy va natyurmort olasiz. Faqat siz, qog‘oz va sizning tasavvuringiz. Sizga o‘z iste’dodingizni ko‘rsatish uchun bir necha soat beriladi.",
+                        result_text: "Imtihonlardan so‘ng biz har bir ishni diqqat bilan ko‘rib chiqamiz. Agar siz o‘tsangiz - yangiliklarni kuzatib boring!",
+                    },
+                    documents: {
+                        title: "Kerakli hujjatlar",
+                        subtitle: "O‘qishga kirish uchun hujjatlar to‘plamini tayyorlang",
+                        list_title: "Asosiy to‘plam",
+                        additional_title: "Qo‘shimcha",
+                        contacts_title: "Qabul komissiyasi",
+
+                        // Hujjatlar ro‘yxati
+                        item_1: "Direktor nomiga ariza",
+                        item_2: "Tug‘ilganlik guvohnomasidan nusxa",
+                        item_3: "7-sinfni tugatganlik tabeli",
+                        item_4: "Tibbiy ma’lumotnoma (086-U va 063 shakllari)",
+                        item_5: "3×4 o‘lchamdagi 6 ta fotosurat",
+                        item_6: "Ota-onaning pasport nusxasi",
+                        item_7: "Ijodiy ishlar (kamida 20 ta ish)",
+
+                        // Qo‘shimcha materiallar
+                        folder: "Bog‘ichli papka - 1 dona",
+                        envelope: "Konvert - 1 dona",
+
+                        // Aloqa
+                        phone_label: "Ma’lumot uchun:"
                     }
                 }
             },
@@ -1083,6 +1329,7 @@ i18n
                         education: "Education",
                         directions: "Directions",
                         study_plan: "Study Plan",
+                        schedule: "Schedule",
                         achievements: "Achievements",
                         admission: "Admission",
                         conditions: "Conditions",
@@ -1253,6 +1500,10 @@ i18n
                                 desc: "Students in the department are taught interior design, the use of color in ornamental compositions, the secrets of using natural color shades, the conventions of color and form, and the skillful use of natural textures of materials.",
                                 desc1: "In addition, they master the types of 'islimi' and 'girih', their different and common features, the basic elements used in their creation (geometric shapes in 'girih', and stylized natural forms in 'islimi', that is, conventional images of plants and animals), as well as the appropriate use of colors and such pictorial means as their range, color, rhythm, symmetry and asymmetry, etc. The talented artist Ibragimov Sobir teaches students the secrets of ornamentation."
                             },
+                            "monumental-decorative": {
+                                title: "Monumental decorative art",
+                                desc: ""
+                            },
                             "costume-designer": {
                                 title: "Costume Designer",
                                 desc: "In this field, specialists are trained in two directions: theatrical costume designer and leader of an art club. Students gain knowledge about the role and place of clothing in society, the art of costume creation, and the characteristics of costumes of Ancient Eastern civilizations, Central Asia, Ancient Greece and Rome, Medieval Europe, the Middle East, the Renaissance era, as well as modern Europe and Russia. They also acquire professional skills in sewing historical costumes based on modern technologies.In addition, they master the creation of ethnographic and historical costume compositions of the world’s peoples, modeling and production technologies for modern and historical theatrical costumes, artistic textile decoration, stencil printing techniques, batik technology, the creation of artistic lace, brocade, and gold embroidery items, as well as accessories (such as scarves) made through fabric dyeing methods like “shibori” and “bandhani.” They also develop skills in creating costume compositions for national, historical, and fairy-tale characters.",
@@ -1308,7 +1559,7 @@ i18n
                             two: {
                                 tag: "Stage II",
                                 title: "1928 – 1949: Benkov School",
-                                text1: "On October 7, 1928, the Samarkand specialized art school was transformed into the Samarkand College of Fine Arts. From 1930 to 1939, this college was called the Samarkand Art College, and from 1939 to 1949 — the Samarkand Art School.",
+                                text1: "On October 7, 1928, the Samarkand specialized art school was transformed into the Samarkand College of Fine Arts. From 1930 to 1939, this college was called the Samarkand Art College, and from 1939 to 1949 - the Samarkand Art School.",
                                 text2: "On July 26, 1941, by Order No. 502 of the Administration for Arts Affairs of the Council of People's Commissars of the Uzbek SSR, the Republican School of Fine Arts was established on the basis of the Tashkent and Samarkand art schools. The director of the Tashkent School of Fine Arts, Zhemchuzhnikov, transferred the school's property to the director of the Samarkand Art School, Myasnikov.",
                                 text3: "In 1949, by decision of the Government of Uzbekistan, the Samarkand Art School named after P. Benkov and the Tashkent Art College were merged and reorganized into the Republican Art School named after Pavel Petrovich Benkov in Tashkent.",
                                 text4: "This educational institution was always popularly called the “Uzbek School of Arts.” In accordance with the Resolution of the Government of Uzbekistan of 1949, the Samarkand School of Arts was named after the People's Artist of Uzbekistan, art figure Pavel Petrovich Benkov, who devoted his creative and pedagogical life to it, in order to honor his contribution to the development of Uzbek fine art and to perpetuate the name of the famous master of painting."
@@ -1337,7 +1588,7 @@ i18n
                             items: [
                                 { year: "1946–1947", name: "Restoration and Sculpture", desc: "The school had departments of painting restoration and sculpture." },
                                 { year: "1952–1953", name: "Applied Arts", desc: "The Faculty of Applied Arts was opened (artistic glass processing, silk weaving, carpet weaving, wood processing technology, wood carving and ganch carving)." },
-                                { year: "1960s", name: "Design and Textile", desc: "Departments of theatrical technology were opened — props, lighting, costumes and makeup." },
+                                { year: "1960s", name: "Design and Textile", desc: "Departments of theatrical technology were opened - props, lighting, costumes and makeup." },
                                 { year: "1975", name: "Ceramics and Interior Design", desc: "Departments of artistic design were created (ceramics and interior design)." },
                                 { year: "1981", name: "Miniature and Props", desc: "The following departments were opened: lacquer miniature, stage lighting technology, props and stage items." },
                                 { year: "1980s", name: "Painting and Drawing", desc: "The faculty of painting and drawing was closed and replaced by the faculty of decorative and applied arts." }
@@ -1532,7 +1783,7 @@ i18n
                         },
                         science: {
                             title: "Digital Art",
-                            desc: "A modern computer lab — a bridge between classical education and future technologies. Students learn graphic design and 3D modeling here.",
+                            desc: "A modern computer lab - a bridge between classical education and future technologies. Students learn graphic design and 3D modeling here.",
                             span: "TECHNOLOGIES"
                         },
                         library: {
@@ -1596,7 +1847,125 @@ i18n
                         projectTitle: "Creative Project №",
                         prev: "← Prev",
                         next: "Next →",
-                        footerText: "Showing {{start}} — {{end}} of {{total}} works"
+                        footerText: "Showing {{start}} - {{end}} of {{total}} works"
+                    },
+                    newsDetail: {
+                        back_to_news: "Back to news",
+                        loading: "Loading...",
+                        not_found: "News not found",
+                        date_placeholder: "Date not specified",
+                        share: "Share"
+                    },
+                    study_plan: {
+                        title: "Study Plan",
+                        department: "Specialty"
+                    },
+                    stude_detail: {
+                        not_found: "Direction not found",
+                        back_to_list: "Back to list",
+                        back: "Back",
+                        curriculum_label: "Curriculum by grades",
+                        grade_suffix: "GRADE"
+                    },
+                    subjects: {
+                        draftsman: "Drafting",
+                        painting: "Painting",
+                        composition: "Composition",
+                        film_and_television_decoration: "Film and TV Decoration",
+                        computer_graphics: "Computer Graphics",
+                        practice: "Practice",
+                        movie_scenery: "Film Scenery",
+                        plastic_anatomy: "Plastic Anatomy",
+                        practical_training: "Industrial Practice",
+                        materials_science: "Materials Science",
+                        color_theory: "Color Theory",
+                        calligraphy: "Calligraphy",
+                        lacquered_miniature_carpentry: "Miniature Carpentry",
+                        book_art: "Book Art",
+                        carpentry: "Carpentry",
+                        shrift: "Font",
+                        painting_technique: "Painting Technique",
+                        composition_in_materials: "Material Composition",
+                        projecting: "Design",
+                        theater_layout: "Theater Layout",
+                        stage_technique: "Stage Technique",
+                        painting_techniques_and_materials_technology: "Painting Materials Technology",
+                        workshop_practice: "Workshop Skills",
+                        the_art_of_theatrical_props: "Theatrical Props Art",
+                        embellishment_on_fabric: "Fabric Painting",
+                        artistic_processing_of_objects: "Artistic Object Processing",
+                        modeling: "Modeling",
+                        matolarga_ishlov_berish: "Fabric Processing",
+                        practice_training: "Training Practice",
+                        construction: "Construction",
+                        shtift: "Font",
+                        working_with_materials: "Working with Materials",
+                        clay_modeling: "Clay Modeling",
+                        sculpture: "Sculpture",
+                        art_restoration: "Art Restoration",
+                        techniques_of_painting_materials: "Painting Materials Techniques",
+                        technological_progress: "Technological Process",
+                        photography: "Photography",
+                        reproduction: "Reproduction"
+                    },
+                    schedule: {
+                        title: "Class Schedule",
+                        routine_label: "School Routine",
+                        punctuality_title: "Punctuality",
+                        punctuality_text: "We value the time of our students and teachers. Please arrive 10 minutes before the start of the first lesson.",
+                        special_title: "Specialized",
+                        theory_title: "Theory & Basics",
+                        theory_text: "On days free from specialized subjects, general education disciplines are held.",
+                        mon_wed: "Monday ~ Wednesday",
+                        thu_sat: "Thursday ~ Saturday",
+                        grades_8_11: "Grades 8 and 11",
+                        grades_9_10: "Grades 9 and 10",
+                        pairs: {
+                            p1: { title: "1st Pair", desc: "Start of the school day", note: "Short break" },
+                            p2: { title: "2nd Pair", desc: "Rest and lunch time (40 min)", note: "Long break" },
+                            p3: { title: "3rd Pair", desc: "Continuation of classes", note: "Short break" },
+                            p4: { title: "4th Pair", desc: "End of academic hours", note: "End of the day" }
+                        }
+                    },
+                    conditions: {
+                        title: "Joining the Benkov Family",
+                        subtitle: "Your creative journey begins with the first stroke",
+
+                        dates_title: "When to join us?",
+                        docs_period: "June 1-30 - document submission period",
+                        exams_period: "July 5-20 - entrance exams",
+
+                        steps_title: "What we need from you:",
+                        step_1: "Completed 7th grade",
+                        step_2: "A portfolio with your works",
+                        step_3: "A desire to create",
+
+                        process_title: "How it works",
+                        process_text: "Everything is simple and fair: you arrive at the scheduled time, get a place in a quiet studio, and a still life setup. It’s just you, the paper, and your vision. You’ll have several hours to show your talent.",
+                        result_text: "After the exams, we carefully review every work. If you pass - stay tuned for updates!",
+                    },
+                    documents: {
+                        title: "Required Documents",
+                        subtitle: "Prepare a complete application package for admission",
+                        list_title: "Main Package",
+                        additional_title: "Additional Items",
+                        contacts_title: "Admissions Committee",
+
+                        // Document list
+                        item_1: "Application addressed to the principal",
+                        item_2: "Copy of birth certificate",
+                        item_3: "7th grade completion report card",
+                        item_4: "Medical certificate (forms 086-U and 063)",
+                        item_5: "6 passport-size photos (3×4)",
+                        item_6: "Copy of parents’ passports",
+                        item_7: "Creative works (at least 20 pieces)",
+
+                        // Additional materials
+                        folder: "Folder with ties -1 pc",
+                        envelope: "Envelope - 1 pc",
+
+                        // Contacts
+                        phone_label: "For inquiries:"
                     }
                 }
             }

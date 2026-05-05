@@ -446,7 +446,9 @@ const Home = () => {
           <div className="text-center mb-28">
             <h2 className="text-5xl md:text-6xl font-bold text-[#1B2A44] mb-6"
               style={{ fontFamily: "'Playfair Display', serif" }}>
-              {t('home.benefits.title_main')}<span className="text-[#D4A259]">{t('home.benefits.title_main')}</span>
+              {t('home.benefits.title_main')}
+              {" "} {/* Добавляет гарантированный пробел */}
+              <span className="text-[#D4A259]">{t('home.benefits.title_accent')}</span>
             </h2>
             <div className="flex justify-center items-center gap-4">
               <span className="w-12 h-[1px] bg-[#D4A259]/30"></span>
