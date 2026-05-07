@@ -12,7 +12,7 @@ const Admission = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
 
-  const TELEGRAM_BOT_TOKEN = '8792163596:AAEvf26FSPUS0ulU1nwBOicEM8210F7HFro';
+  const TELEGRAM_BOT_TOKEN = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
   const TELEGRAM_CHAT_ID = '1633967629';
 
   // Получаем массив направлений из переводов
