@@ -7,7 +7,6 @@ import NewsSection from './components/NewsSection'
 import Home from './pages/Home'
 import About from './pages/About'
 import Achievments from './pages/Achievements'
-import Admission from './pages/Admission'
 import Conditions from './pages/Conditions'
 import Contacts from './pages/Contacts'
 import Documents from './pages/Documents'
@@ -42,7 +41,6 @@ const App = () => {
         <Route path={ROUTES.DIRECTIONS} element={<Directions />} />
         <Route path={`${ROUTES.DIRECTIONS}/:id`} element={<DirectionsDetail />} />
         <Route path={ROUTES.ACHIEVEMENTS} element={<Achievments />} />
-        <Route path={ROUTES.ADMISSION} element={<Admission />} />
         <Route path={ROUTES.CONDITIONS} element={<Conditions />} />
         <Route path={ROUTES.CONTACTS} element={<Contacts />} />
         <Route path={ROUTES.DOCUMENTS} element={<Documents />} />

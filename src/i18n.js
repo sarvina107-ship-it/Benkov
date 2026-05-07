@@ -33,10 +33,10 @@ i18n
                         deputy: "Заместитель"
                     },
                     // Кнопки
-                    btn_apply: "Подать заявку",
+                    btn_apply: "Условия Поступления",
                     btn: {
                         more: "Узнать больше",
-                        apply_short: "Поступить"
+                        apply_short: "Условия"
                     },
                     // Поиск
                     search_placeholder: "Поиск...",
@@ -55,7 +55,7 @@ i18n
                         visit_us: "Ждем вас в",
                         visit_us_highlight: "гости",
                         address_title: "Наш адрес",
-                        address_value: "г. Ташкент, Яккасарайский р-н, ул. Ш. Руставели, 15",
+                        address_value: "г. Ташкент, Шайхантахурский район, улица Фурката, 6А",
                         reception: "Приемная",
                         mission_title: "Миссия",
                         mission_text: "Создаем пространство, где традиции академического искусства встречаются с современным видением, помогая каждому таланту найти свой путь.",
@@ -511,30 +511,6 @@ i18n
                             learnmore: "Перейти в галерею"
                         }
                     },
-                    admission: {
-                        title: "Поступление",
-                        labelName: "Ф.И.О. Абитуриента",
-                        labelPhone: "Номер телефона",
-                        labelDirection: "Направление обучения",
-                        placeholderDirection: "Выберите из списка...",
-                        searchPlaceholder: "Поиск направления...",
-                        notFound: "Ничего не найдено",
-                        submitBtn: "ОТПРАВИТЬ ЗАЯВКУ",
-                        sending: "ОТПРАВКА...",
-                        successTitle: "ЗАЯВКА ПРИНЯТА!",
-                        successAlert: "⚠️ ВНИМАНИЕ: СЛЕДИТЕ ЗА НОВОСТЯМИ О ДАТЕ ПРОВЕДЕНИЯ ЭКЗАМЕНОВ В НАШЕМ ТЕЛЕГРАМ КАНАЛЕ И НА САЙТЕ!",
-                        backHome: "Вернуться на главную",
-                        error: "Ошибка при отправке.",
-                        selectAlert: "Пожалуйста, выберите направление",
-                        directions: [
-                            "Художник кино и телевидения", "Художник лаковой миниатюры", "Художник-график",
-                            "Станковая живопись", "Монументальная живопись", "Театральный живописец-декоратор",
-                            "Театральная бутафория", "Мастер-художник художественной резьбы по дереву",
-                            "Мастер-художник художественной резьбы по гипсу (ганчу)", "Монументально-декаративное искусство",
-                            "Художник по костюмам", "Дизайн интерьера", "Дизайн компьютерной графики",
-                            "Художественная керамика", "Скульптура", "Художник-реставратор живописи и произведений прикладного искусства"
-                        ]
-                    },
                     gallery: {
                         span: "Творчество наших воспитанников",
                         title: "Галерея",
@@ -683,6 +659,16 @@ i18n
                         director: "Директор",
                         deputy: "Заместитель директора",
                         directionsdetail: "Подробности направления"
+                    },
+                    contacts: {
+                        badge: "Контакты школы",
+                        title_main: "Связь с",
+                        title_accent: "школой",
+                        description: "Вопросы поступления, документации и творческого процесса. Мы открыты для будущих художников и их родителей.",
+                        dept_label: "Отдел",
+                        admin_title: "Администрация",
+                        reception_title: "Приемная",
+                        school_name: "Республиканская художественная школа им. П.П. Бенькова"
                     }
 
                 }
@@ -710,10 +696,10 @@ i18n
                         page: "Sahifa",
                         deputy: "O'rinbosar"
                     },
-                    btn_apply: "Ariza yuborish",
+                    btn_apply: "Qabul qilish shartlari",
                     btn: {
                         more: "Batafsil ma'lumot",
-                        apply_short: "Kirish"
+                        apply_short: "Shartlar"
                     },
                     search_placeholder: "Qidiruv...",
                     search: {
@@ -730,7 +716,7 @@ i18n
                         visit_us: "Sizni mehmonga",
                         visit_us_highlight: "kutamiz",
                         address_title: "Manzilimiz",
-                        address_value: "Toshkent sh., Yakkasaroy tumani, Sh. Rustaveli ko'chasi, 15",
+                        address_value: "Toshkent sh., Shayxontohur tumani, Furqat ko‘chasi, 6A",
                         reception: "Qabulxona",
                         mission_title: "Missiya",
                         mission_text: "Akademik san'at an'analari zamonaviy qarashlar bilan uchrashadigan makon yaratamiz va har bir iste'dodga o'z yo'lini topishga yordam beramiz.",
@@ -1186,30 +1172,6 @@ i18n
                             learnmore: "Galereyaga o‘tish"
                         }
                     },
-                    admission: {
-                        title: "Qabul",
-                        labelName: "Abituriyentning F.I.SH.",
-                        labelPhone: "Telefon raqami",
-                        labelDirection: "Ta'lim yo'nalishi",
-                        placeholderDirection: "Ro'yxatdan tanlang...",
-                        searchPlaceholder: "Yo'nalishni qidirish...",
-                        notFound: "Hech narsa topilmadi",
-                        submitBtn: "ARIZA YUBORISH",
-                        sending: "YUBORILMOQDA...",
-                        successTitle: "ARIZA QABUL QILINDI!",
-                        successAlert: "⚠️ DIQQAT: IMTIHONLAR SANASI HAQIDAGI YANGILIKLARNI TELEGRAM KANALIMIZ VA SAYTIMIZDA KUZATIB BORING!",
-                        backHome: "Bosh sahifaga qaytish",
-                        error: "Yuborishda xatolik yuz berdi.",
-                        selectAlert: "Iltimos, yo'nalishni tanlang",
-                        directions: [
-                            "Kino va televideniye rassomi", "Laka miniatyurasi rassomi", "Rassom-grafik",
-                            "Dastgohli rangtasvir", "Mahobatli rangtasvir", "Teatr rassomi-dekoratori",
-                            "Teatr butaforiyasi", "Yog'och o'ymakorligi ustasi",
-                            "Ganch o'ymakorligi ustasi", "Mahobatli bezak sa'nati",
-                            "Liboslar bo'yicha rassom", "Interyer dizayni", "Kompyuter grafikasi dizayni",
-                            "Badiiy kulolchilik", "Haykaltaroshlik", "Rangtasvir va amaliy san'at asarlari rassom-restavratori"
-                        ]
-                    },
                     gallery: {
                         span: "Tarbiyalanuvchilarimiz ijodi",
                         title: "Galereya",
@@ -1358,6 +1320,16 @@ i18n
                         director: "Direktor",
                         deputy: "Direktor o‘rinbosari",
                         directionsdetail: "Yo‘nalish tafsilotlari"
+                    },
+                    contacts: {
+                        badge: "Maktab kontaktlari",
+                        title_main: "Biz bilan",
+                        title_accent: "aloqa",
+                        description: "O'qishga kirish, hujjatlar va ijodiy jarayon bo'yicha savollar. Biz bo'lajak rassomlar va ularning ota-onalari uchun ochiq miz.",
+                        dept_label: "Bo'lim",
+                        admin_title: "Ma'muriyat",
+                        reception_title: "Qabulxona",
+                        school_name: "P.P. Benkov nomidagi Respublika rassomlik maktabi"
                     }
                 }
             },
@@ -1384,10 +1356,10 @@ i18n
                         page: "Page",
                         deputy: "Deputy"
                     },
-                    btn_apply: "Apply Now",
+                    btn_apply: "Conditions of Admission",
                     btn: {
                         more: "Learn More",
-                        apply_short: "Enroll"
+                        apply_short: "Conditions"
                     },
                     search_placeholder: "Search...",
                     search: {
@@ -1404,7 +1376,7 @@ i18n
                         visit_us: "We are waiting for",
                         visit_us_highlight: "you",
                         address_title: "Our Address",
-                        address_value: "15 Sh. Rustaveli St., Yakkasaray district, Tashkent",
+                        address_value: "Tashkent city, Shaykhantakhur district, Furqat Street, 6A",
                         reception: "Reception",
                         mission_title: "Mission",
                         mission_text: "We create a space where traditions of academic art meet modern vision, helping every talent find their own path.",
@@ -1860,30 +1832,6 @@ i18n
                             learnmore: "Go to gallery"
                         }
                     },
-                    admission: {
-                        title: "Admission",
-                        labelName: "Full Name of Applicant",
-                        labelPhone: "Phone Number",
-                        labelDirection: "Field of Study",
-                        placeholderDirection: "Select from the list...",
-                        searchPlaceholder: "Search direction...",
-                        notFound: "Nothing found",
-                        submitBtn: "SUBMIT APPLICATION",
-                        sending: "SENDING...",
-                        successTitle: "APPLICATION RECEIVED!",
-                        successAlert: "⚠️ ATTENTION: FOLLOW THE NEWS ABOUT THE EXAM DATES IN OUR TELEGRAM CHANNEL AND ON THE WEBSITE!",
-                        backHome: "Back to Home",
-                        error: "Error while sending.",
-                        selectAlert: "Please select a field of study",
-                        directions: [
-                            "Film and Television Artist", "Lacquer Miniature Artist", "Graphic Artist",
-                            "Easel Painting", "Monumental Painting", "Theatrical Set Designer",
-                            "Theatrical Props Master", "Wood Carving Master Artist",
-                            "Ganch (Gypsum) Carving Master Artist",
-                            "Costume Designer", "Interior Design", "Computer Graphics Design",
-                            "Artistic Ceramics", "Sculpture", "Restorer of Painting and Applied Arts"
-                        ]
-                    },
                     gallery: {
                         span: "Creativity of our students",
                         title: "Gallery",
@@ -2032,6 +1980,16 @@ i18n
                         director: "Director",
                         deputy: "Deputy Director",
                         directionsdetail: "Direction Details"
+                    },
+                    contacts: {
+                        badge: "Art School Contacts",
+                        title_main: "Get in",
+                        title_accent: "touch",
+                        description: "Inquiries regarding admissions, documentation, and the creative process. We are open to future artists and their parents.",
+                        dept_label: "Department",
+                        admin_title: "Administration",
+                        reception_title: "Admissions",
+                        school_name: "P.P. Benkov Republican Art School"
                     }
                 }
             }
