@@ -286,7 +286,7 @@ i18n
                                 { year: "1960-е", name: "Дизайн и Текстиль", desc: "В школе открылись отделения театральной техники - реквизита, освещения, костюмов и грима." },
                                 { year: "1975-е", name: "Керамика и дизайн интерьера", desc: "Были созданы отделения художественного оформления (Керамика, дизайн интерьеров)." },
                                 { year: "1981-е", name: "Миниатюра и бутафория", desc: "Были открыты следующие отделы: лаковая миниатюра, техника сценического освещения, бутафория и реквизит." },
-                                { year: "198- е", name: "Живопись и Рисунок", desc: "Факультет живописи и рисунка был закрыт и заменен факультетом декоративно-прикладного искусства." },
+                                { year: "1984-е", name: "Живопись и Рисунок", desc: "Факультет живописи и рисунка был закрыт и заменен факультетом декоративно-прикладного искусства." },
                             ]
                         },
                         button: "Узнать условия поступления"
@@ -324,49 +324,7 @@ i18n
                             education: "Образование",
                             career: "Трудовая деятельность",
                             present: "н.в."
-                        },
-                        edu_types: {
-                            bachelor: "Высшее (бакалавриат)",
-                            master: "Высшее (магистратура)",
-                            higher: "Высшее образование"
-                        },
-                        schools: {
-                            niad: "Национальный институт искусства и дизайна имени К. Бехзода",
-                            tspu: "Ташкентский государственный педагогический университет имени Низами",
-                            college: "Республиканский колледж дизайна",
-                            school_15: "Средняя школа №15 Дустликского района Джизакской области"
-                        },
-                        specs: {
-                            design: "Дизайн",
-                            interior: "Дизайн интерьера",
-                            physics_astro: "Физика и астрономия",
-                            physics: "Физика",
-                            graphics_photo: "Компьютерная графика и художественная фотография",
-                            art_interior: "Искусство в интерьере",
-                            fine_art_graphics: "Изобразительное искусство и инженерная графика"
-                        },
-                        jobs: {
-                            landscaping: "Декоративный художник, ГУ ландшафтного дизайна администрации г. Ташкента",
-                            senior_teacher: "Старший преподаватель, заведующий факультетом дизайна в Республиканском колледже дизайна",
-                            deputy_spiritual: "Заместитель директора по духовно-воспитательной работе РСХУ им. П. Бенькова",
-                            deputy_prod: "Заместитель директора по производственной (практической) работе РСХУ им. П. Бенькова",
-                            director_school: "Директор Республиканского специализированного художественного училища - интерната",
-                            student_tspu: "Студент ТГПУ имени Низами",
-                            aspirant_tspu: "Аспирант ТГПУ имени Низами",
-                            teacher_design_school: "Преподаватель Республиканской специализированной школы дизайна",
-                            teacher_benkov: "Преподаватель РСХШ имени Павла Бенькова",
-                            deputy_academic: "Заместитель директора по учебной работе РСХШ имени Павла Бенькова",
-                            teacher_rotational: "Преподаватель РСХШ имени Павла Бенькова (на ротационной основе)",
-                            master_prod: "Магистр педагогического производства в РСХШ имени Павла Бенькова",
-                            teacher_head_dept: "Преподаватель спец. предметов, заведующий кафедрой РСХШ имени Павла Бенькова",
-                            deputy_prof: "Заместитель директора по профессиональному образованию РСХШ имени Павла Бенькова",
-                            teacher_school_15: "Преподаватель средней школы №15 Дустликского района Джизакской области",
-                            deputy_econ: "Заместитель директора по экономическим вопросам РСХУ им. П. Бенькова"
-                        },
-                        awards_list: {
-                            radjabov: "Значок «Покровитель Академии искусств Узбекистана» (2025 г.)"
-                        },
-                        present: "н.в"
+                        }
                     },
                     director: {
                         title: "Руководство школы",
@@ -647,6 +605,7 @@ i18n
                         documents: "Необходимые документы",
                         infrastructure: "Инфраструктура",
                         studyplan: "Учебный план",
+                        studydetail: "Детали плана",
                         schedule: "Расписание",
                         management: "Руководство",
                         newssection: "Новости",
@@ -945,9 +904,9 @@ i18n
                                 { year: "1946–1947", name: "Restavratsiya va haykaltaroshlik", desc: "Maktabda rangtasvir restavratsiyasi va haykaltaroshlik yo‘nalishlari mavjud edi." },
                                 { year: "1952–1953", name: "Amaliy san’at", desc: "Amaliy san’at fakulteti ochildi (shisha ishlov berish, ipakchilik, gilamchilik, yog‘ochga ishlov berish va ganch o‘ymakorligi)." },
                                 { year: "1960-yillar", name: "Dizayn va tekstil", desc: "Teatr texnikasi yo‘nalishlari - rekvizit, yoritish, libos va grim bo‘limlari ochildi." },
-                                { year: "1975", name: "Keramika va interyer dizayni", desc: "Badiiy bezak yo‘nalishlari (keramika va interyer dizayni) tashkil etildi." },
-                                { year: "1981", name: "Miniatyura va butaforiya", desc: "Lokli miniatyura, sahna yoritish texnikasi va butaforiya bo‘limlari ochildi." },
-                                { year: "1980-yillar", name: "Rangtasvir va chizmachilik", desc: "Rangtasvir va chizmachilik fakulteti yopilib, o‘rniga amaliy san’at yo‘nalishi tashkil etildi." }
+                                { year: "1975-yillar", name: "Keramika va interyer dizayni", desc: "Badiiy bezak yo‘nalishlari (keramika va interyer dizayni) tashkil etildi." },
+                                { year: "1981-yillar", name: "Miniatyura va butaforiya", desc: "Lokli miniatyura, sahna yoritish texnikasi va butaforiya bo‘limlari ochildi." },
+                                { year: "1984-yillar", name: "Rangtasvir va chizmachilik", desc: "Rangtasvir va chizmachilik fakulteti yopilib, o‘rniga amaliy san’at yo‘nalishi tashkil etildi." }
                             ]
                         },
                         button: "Qabul shartlarini ko‘rish"
@@ -985,49 +944,7 @@ i18n
                             education: "Ma'lumot",
                             career: "Mehnat faoliyati",
                             present: "h.v."
-                        },
-                        edu_types: {
-                            bachelor: "Oliy (bakalavriat)",
-                            master: "Oliy (magistratura)",
-                            higher: "Oliy ma'lumot"
-                        },
-                        schools: {
-                            niad: "Kamoliddin Behzod nomidagi Milliy rassomlik va dizayn instituti",
-                            tspu: "Nizomiy nomidagi Toshkent davlat pedagogika universiteti",
-                            college: "Respublika dizayn kolleji",
-                            school_15: "Jizzax viloyati Do'stlik tumani 15-sonli o'rta maktab"
-                        },
-                        specs: {
-                            design: "Dizayn",
-                            interior: "Interyer dizayni",
-                            physics_astro: "Fizika va astronomiya",
-                            physics: "Fizika",
-                            graphics_photo: "Kompyuter grafikasi va badiiy foto",
-                            art_interior: "Interyerdagi san'at",
-                            fine_art_graphics: "Tasviriy san'at va muhandislik grafikasi"
-                        },
-                        jobs: {
-                            landscaping: "Toshkent shahar hokimligi obodonlashtirish bosh boshqarmasi dekorativ rassomi",
-                            senior_teacher: "Respublika dizayn kollejida katta o'qituvchi, dizayn fakulteti mudiri",
-                            deputy_spiritual: "P. Benkov nomidagi RMU ma'naviy-ma'rifiy ishlar bo'yicha direktor o'rinbosari",
-                            deputy_prod: "P. Benkov nomidagi RMU ishlab chiqarish (amaliy) ishlari bo'yicha direktor o'rinbosari",
-                            director_school: "Respublika ixtisoslashtirilgan san'at maktab-internati direktori",
-                            student_tspu: "Nizomiy nomidagi TDPU talabasi",
-                            aspirant_tspu: "Nizomiy nomidagi TDPU aspiranti",
-                            teacher_design_school: "Respublika ixtisoslashtirilgan dizayn maktabi o'qituvchisi",
-                            teacher_benkov: "P. Benkov nomidagi RMU o'qituvchisi",
-                            deputy_academic: "P. Benkov nomidagi RMU o'quv ishlari bo'yicha direktor o'rinbosari",
-                            teacher_rotational: "P. Benkov nomidagi RMU o'qituvchisi (rotatsiya asosida)",
-                            master_prod: "P. Benkov nomidagi RMU pedagogik ishlab chiqarish magistri",
-                            teacher_head_dept: "Maxsus fanlar o'qituvchisi, kafedra mudiri",
-                            deputy_prof: "P. Benkov nomidagi RMU professional ta'lim bo'yicha direktor o'rinbosari",
-                            teacher_school_15: "Jizzax viloyati Do'stlik tumani 15-sonli maktab o'qituvchisi",
-                            deputy_econ: "P. Benkov nomidagi RMU iqtisodiy masalalar bo'yicha direktor o'rinbosari"
-                        },
-                        awards_list: {
-                            radjabov: "«O'zbekiston Badiiy akademiyasi homiysi» ko'krak nishoni (2025-y.)"
-                        },
-                        present: "h.k"
+                        }
                     },
                     director: {
                         title: "Maktab rahbariyati",
@@ -1308,6 +1225,7 @@ i18n
                         documents: "Kerakli hujjatlar",
                         infrastructure: "Infratuzilma",
                         studyplan: "O‘quv rejasi",
+                        studydetail: "Reja tafsilotlari",
                         schedule: "Dars jadvali",
                         management: "Rahbariyat",
                         newssection: "Yangiliklar",
@@ -1605,9 +1523,9 @@ i18n
                                 { year: "1946–1947", name: "Restoration and Sculpture", desc: "The school had departments of painting restoration and sculpture." },
                                 { year: "1952–1953", name: "Applied Arts", desc: "The Faculty of Applied Arts was opened (artistic glass processing, silk weaving, carpet weaving, wood processing technology, wood carving and ganch carving)." },
                                 { year: "1960s", name: "Design and Textile", desc: "Departments of theatrical technology were opened - props, lighting, costumes and makeup." },
-                                { year: "1975", name: "Ceramics and Interior Design", desc: "Departments of artistic design were created (ceramics and interior design)." },
-                                { year: "1981", name: "Miniature and Props", desc: "The following departments were opened: lacquer miniature, stage lighting technology, props and stage items." },
-                                { year: "1980s", name: "Painting and Drawing", desc: "The faculty of painting and drawing was closed and replaced by the faculty of decorative and applied arts." }
+                                { year: "1975s", name: "Ceramics and Interior Design", desc: "Departments of artistic design were created (ceramics and interior design)." },
+                                { year: "1981s", name: "Miniature and Props", desc: "The following departments were opened: lacquer miniature, stage lighting technology, props and stage items." },
+                                { year: "1984s", name: "Painting and Drawing", desc: "The faculty of painting and drawing was closed and replaced by the faculty of decorative and applied arts." }
                             ]
                         },
                         button: "Learn Admission Requirements"
@@ -1645,49 +1563,7 @@ i18n
                             education: "Education",
                             career: "Career History",
                             present: "present"
-                        },
-                        edu_types: {
-                            bachelor: "Higher (Bachelor's)",
-                            master: "Higher (Master's)",
-                            higher: "Higher Education"
-                        },
-                        schools: {
-                            niad: "National Institute of Fine Arts and Design named after K. Behzod",
-                            tspu: "Tashkent State Pedagogical University named after Nizami",
-                            college: "Republic College of Design",
-                            school_15: "Secondary School No. 15, Dustlik District, Jizzakh Region"
-                        },
-                        specs: {
-                            design: "Design",
-                            interior: "Interior Design",
-                            physics_astro: "Physics and Astronomy",
-                            physics: "Physics",
-                            graphics_photo: "Computer Graphics and Art Photography",
-                            art_interior: "Art in Interior",
-                            fine_art_graphics: "Fine Arts and Engineering Graphics"
-                        },
-                        jobs: {
-                            landscaping: "Decorative artist, Landscaping Department of Tashkent City Administration",
-                            senior_teacher: "Senior Lecturer, Head of Design Faculty at the Republic College of Design",
-                            deputy_spiritual: "Deputy Director for Spiritual and Educational Affairs at Benkov Art School",
-                            deputy_prod: "Deputy Director for Practical Work at Benkov Art School",
-                            director_school: "Director of the Republic Specialized Art Boarding School",
-                            student_tspu: "Student at TSPU named after Nizami",
-                            aspirant_tspu: "Postgraduate student at TSPU named after Nizami",
-                            teacher_design_school: "Teacher at the Republic Specialized School of Design",
-                            teacher_benkov: "Teacher at the P. Benkov Art School",
-                            deputy_academic: "Deputy Director for Academic Affairs at Benkov Art School",
-                            teacher_rotational: "Teacher at P. Benkov Art School (on rotation)",
-                            master_prod: "Master of Pedagogical Production at P. Benkov Art School",
-                            teacher_head_dept: "Specialist subjects teacher, Head of Department",
-                            deputy_prof: "Deputy Director for Vocational Education at Benkov Art School",
-                            teacher_school_15: "Teacher at Secondary School No. 15, Jizzakh Region",
-                            deputy_econ: "Deputy Director for Economic Affairs at Benkov Art School"
-                        },
-                        awards_list: {
-                            radjabov: "Badge «Patron of the Academy of Arts of Uzbekistan» (2025)"
-                        },
-                        present: "n.d"
+                        }
                     },
                     director: {
                         title: "School Management",
@@ -1968,6 +1844,7 @@ i18n
                         documents: "Required Documents",
                         infrastructure: "Infrastructure",
                         studyplan: "Study Plan",
+                        studydetail: "Study Detail",
                         schedule: "Schedule",
                         management: "Management",
                         newssection: "News",

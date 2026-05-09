@@ -7,7 +7,7 @@ const Deputy = () => {
     const { id } = useParams();
     const { t, i18n } = useTranslation();
 
-    // Получаем данные, учитывая вложенную структуру твоего i18n
+    // Получаем данные
     const person = useMemo(() => {
         const data = getDeputiesContent(t, i18n.language);
         return data[id];
@@ -16,9 +16,9 @@ const Deputy = () => {
     // Если зам не найден
     if (!person) {
         return (
-            <div className="min-h-screen flex items-center justify-center bg-[#F8F6F2]">
+            <div className="min-h-screen flex items-center justify-center bg-[#F8F6F2] px-4">
                 <div className="text-center">
-                    <h2 className="text-2xl font-bold mb-4">{t('deputy_page.base.not_found')}</h2>
+                    <h2 className="text-xl sm:text-2xl font-bold mb-4">{t('deputy_page.base.not_found')}</h2>
                     <Link to="/management" className="text-[#D4A259] underline">
                         {t('deputy_page.base.return_list')}
                     </Link>
@@ -28,23 +28,28 @@ const Deputy = () => {
     }
 
     return (
-        <main className="bg-[#F8F6F2] min-h-screen py-16 px-6 text-[#1B2A44]">
+        <main className="bg-[#F8F6F2] min-h-screen py-12 sm:py-16 md:py-20 lg:py-24 px-4 sm:px-6 text-[#1B2A44]">
             <div className="max-w-5xl mx-auto">
                 {/* Кнопка назад */}
                 <Link
                     to="/management"
-                    className="inline-flex items-center gap-2 text-[#D4A259] font-bold uppercase tracking-widest text-sm mb-12 hover:gap-4 transition-all"
+                    className="inline-flex items-center gap-2 text-[#D4A259] font-bold uppercase tracking-widest text-xs sm:text-sm mb-8 sm:mb-10 md:mb-12 hover:gap-4 transition-all"
                 >
                     <span>←</span> {t('deputy_page.base.back')}
                 </Link>
 
                 {/* Основная карточка */}
-                <div className="bg-white rounded-[40px] shadow-[0_20px_50px_rgba(0,0,0,0.03)] overflow-hidden mb-16 border border-gray-100">
-                    <div className="md:flex">
+                <div className="bg-white rounded-[24px] sm:rounded-[32px] md:rounded-[40px] shadow-[0_20px_50px_rgba(0,0,0,0.03)] overflow-hidden mb-12 sm:mb-16 border border-gray-100">
+                    <div className="flex flex-col md:flex-row">
+
                         {/* Фото */}
                         <div className="md:w-2/5 aspect-square bg-gray-100 overflow-hidden">
                             {person.photo ? (
-                                <img src={person.photo} alt={person.name} className="w-full h-full object-cover" />
+                                <img
+                                    src={person.photo}
+                                    alt={person.name}
+                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                                />
                             ) : (
                                 <div className="w-full h-full flex items-center justify-center text-gray-400 font-medium">
                                     No Photo
@@ -52,24 +57,32 @@ const Deputy = () => {
                             )}
                         </div>
 
-                        {/* Инфо */}
-                        <div className="md:w-3/5 p-10 lg:p-16 flex flex-col justify-center">
-                            <span className="text-[#D4A259] font-bold uppercase tracking-[0.3em] text-sm mb-4">
+                        {/* Информация */}
+                        <div className="md:w-3/5 p-6 sm:p-8 md:p-10 lg:p-16 flex flex-col justify-center">
+                            <span className="text-[#D4A259] font-bold uppercase tracking-[0.2em] sm:tracking-[0.3em] text-[10px] sm:text-sm mb-3 sm:mb-4 block">
                                 {person.role}
                             </span>
-                            <h1 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+
+                            <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-2 sm:mb-3 md:mb-4 leading-tight text-center md:text-left" style={{ fontFamily: "'Playfair Display', serif" }}>
                                 {person.name}
                             </h1>
-                            <div className="space-y-4 text-[#1B2A44]/80 text-lg">
-                                <p>
-                                    <strong className="text-[#1B2A44]">{t('deputy_page.base.birth_date')}:</strong> {person.birthDate}
-                                </p>
-                                <p>
-                                    <strong className="text-[#1B2A44]">{t('deputy_page.base.languages')}:</strong> {person.languages}
-                                </p>
 
-                                <div className="flex items-start gap-2">
-                                    <strong className="text-[#1B2A44] whitespace-nowrap">{t('deputy_page.base.awards')}:</strong>
+                            <div className="space-y-3 sm:space-y-4 text-[#1B2A44]/80 text-base sm:text-lg">
+                                {/* Дата рождения */}
+                                <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                                    <strong className="text-[#1B2A44] min-w-[120px]">{t('deputy_page.base.birth_date')}:</strong>
+                                    <span>{person.birthDate}</span>
+                                </div>
+
+                                {/* Языки */}
+                                <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                                    <strong className="text-[#1B2A44] min-w-[120px]">{t('deputy_page.base.languages')}:</strong>
+                                    <span>{person.languages}</span>
+                                </div>
+
+                                {/* Награды */}
+                                <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-2">
+                                    <strong className="text-[#1B2A44] min-w-[120px]">{t('deputy_page.base.awards')}:</strong>
                                     {person.awards ? (
                                         <span className="text-[#D4A259] font-medium leading-tight">{person.awards}</span>
                                     ) : (
@@ -77,54 +90,10 @@ const Deputy = () => {
                                     )}
                                 </div>
 
-                                <p className="text-base italic pt-4 text-[#D4A259] leading-relaxed uppercase tracking-wider font-semibold">
+                                {/* Департамент */}
+                                <p className="text-sm sm:text-base italic pt-3 sm:pt-4 text-[#D4A259] leading-relaxed uppercase tracking-wider font-semibold">
                                     {person.dept}
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Образование и Карьера */}
-                <div className="grid md:grid-cols-3 gap-16">
-                    {/* Секция Образования */}
-                    <div className="md:col-span-1">
-                        <h2 className="text-2xl font-bold mb-10 flex items-center gap-3">
-                            <span className="w-8 h-[1px] bg-[#D4A259]"></span> {t('deputy_page.base.education')}
-                        </h2>
-                        <div className="space-y-10">
-                            {person.education.map((edu, idx) => (
-                                <div key={idx} className="relative pl-8 border-l border-gray-200">
-                                    <div className="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-[#D4A259]"></div>
-                                    <p className="text-sm font-bold text-[#D4A259] mb-2 uppercase tracking-wide">
-                                        {edu.year} — {edu.degree}
-                                    </p>
-                                    <p className="text-base font-semibold leading-snug mb-1">{edu.school}</p>
-                                    <p className="text-sm text-gray-500">{edu.spec}</p>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* Секция Карьеры */}
-                    <div className="md:col-span-2">
-                        <h2 className="text-2xl font-bold mb-10 flex items-center gap-3">
-                            <span className="w-8 h-[1px] bg-[#D4A259]"></span> {t('deputy_page.base.career')}
-                        </h2>
-                        <div className="bg-white rounded-[32px] p-10 shadow-[0_10px_30px_rgba(0,0,0,0.02)] border border-gray-100">
-                            <div className="space-y-8">
-                                {person.career.map((item, index) => (
-                                    <div key={index} className="flex flex-col sm:flex-row gap-4 sm:gap-10 group">
-                                        <div className="min-w-[110px] text-sm font-bold text-[#D4A259] pt-1 tracking-wider">
-                                            {item.period}
-                                        </div>
-                                        <div className="pb-8 border-b border-gray-50 w-full group-last:border-0 group-last:pb-0">
-                                            <p className="text-base leading-relaxed text-[#1B2A44] font-medium">
-                                                {item.position}
-                                            </p>
-                                        </div>
-                                    </div>
-                                ))}
                             </div>
                         </div>
                     </div>

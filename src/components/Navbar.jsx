@@ -20,6 +20,7 @@ const Navbar = () => {
     [ROUTES.DOCUMENTS]: t('titles.documents'),
     [ROUTES.INFRASTRUCTURE]: t('titles.infrastructure'),
     [ROUTES.STUDYPLAN]: t('titles.studyplan'),
+    [ROUTES.STUDYDETAIL]: t('titles.studydetail'),
     [ROUTES.SCHEDULE]: t('titles.schedule'),
     [ROUTES.MANAGEMENT]: t('titles.management'),
     [ROUTES.NEWSSECTION]: t('titles.newssection'),

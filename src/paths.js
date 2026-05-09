@@ -10,6 +10,7 @@ export const ROUTES = {
   DEPUTY: '/deputy',
   INFRASTRUCTURE: '/infrastructure',
   STUDYPLAN: '/studyplan',
+  STUDYDETAIL: '/studydetail',
   SCHEDULE: '/schedule',
   MANAGEMENT: '/management',
   GALLERY: '/gallery',
